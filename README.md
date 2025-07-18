@@ -19,10 +19,26 @@ This repository contains tools for analyzing drought propagation from precipitat
 ## 📁 Repository Structure
 
 ```
-├── droughtPropagationAnalysis.ipynb                 # Main drought analysis workflow
-├── droughtPropagationAnalysisFormAntecedent.ipynb   # Data aggregation and ML preparation
-├── triggerLSUautoRun.ipynb                          # Automated batch processing
-├── eTCalibrationMethod.ipynb                        # ET spatial performance evaluation (bonus)
+├── scripts/                                         # Analysis notebooks and scripts
+│   ├── droughtPropagationAnalysis.ipynb                 # Main drought analysis workflow
+│   ├── droughtPropagationAnalysisFormAntecedent.ipynb   # Data aggregation and ML preparation
+│   ├── triggerLSUautoRun.ipynb                          # Automated batch processing
+│   └── eTCalibrationMethod.ipynb                        # ET spatial performance evaluation (bonus)
+├── exampleData/                                     # Example SWAT+ data and spatial files
+│   ├── channel_sdmorph_day.txt                          # Example channel flow data
+│   ├── lsunit_wb_day.txt                                # Example LSU water balance data
+│   ├── landuse.tif                                      # Example land use raster
+│   ├── soil.tif                                         # Example soil type raster
+│   ├── lsu121/                                          # Example LSU shapefile
+│   │   ├── lsu121.shp
+│   │   ├── lsu121.dbf
+│   │   └── [other shapefile components]
+│   └── rivsLSU121/                                      # Example river network shapefile
+│       ├── rivs1.shp
+│       ├── rivs1.dbf
+│       └── [other shapefile components]
+├── requirements.txt                                 # Python dependencies
+├── LICENSE                                          # License file
 └── README.md                                        # This file
 ```
 
