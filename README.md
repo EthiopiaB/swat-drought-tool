@@ -469,11 +469,6 @@ We welcome contributions! Please:
 5. **Submit** a pull request with a clear description
 
 Contributions can include bug reports, feature requests, code improvements, documentation updates, or example datasets from different watersheds.
-
-## Contact
-
-[Add contact information]
-
 ---
 
 **Note**: Update all file paths in the notebooks to match your local data directory structure before running the analysis. The ET calibration method is a bonus analysis framework independent of the main drought propagation analysis and can be used separately for SWAT+ model evaluation purposes.
