@@ -36,7 +36,7 @@ The main analysis notebook that processes individual LSU-channel pairs to:
 - Calculate propagation metrics (lag time, attenuation, lengthening)
 - Generate comprehensive drought databases
 
-### 2. Automated Batch Processing (`trigger_lsu_auto_run.ipynb`)
+### 2. Automated Batch Processing (`triggerLSUautoRun.ipynb`)
 
 Automates the main drought analysis across multiple LSU-channel combinations:
 - Processes all LSU-channel pairs in the watershed
@@ -52,7 +52,7 @@ Combines individual results and prepares machine learning features:
 - Calculates antecedent conditions and time of concentration
 - Prepares feature matrices for drought prediction modeling
 
-### 4. ET Spatial Performance Evaluation (`ET_calibration_method.ipynb`)
+### 4. ET Spatial Performance Evaluation (`eTCalibrationMethod.ipynb`)
 
 **Bonus Analysis Framework**: A comprehensive spatial performance evaluation tool that systematically identifies regions where SWAT+ poorly represents evapotranspiration and targets specific soil-land use combinations for model refinement.
 
@@ -178,7 +178,7 @@ Process all LSU-channel pairs from your watershed automatically:
 
 ```python
 # Run the automated batch processor
-jupyter notebook trigger_lsu_auto_run.ipynb
+jupyter notebook triggerLSUautoRun.ipynb
 ```
 
 ### 3. Data Aggregation and ML Preparation
@@ -197,7 +197,7 @@ Evaluate SWAT+ ET performance spatially:
 ```python
 # Configure paths and parameters in the notebook
 # Run the ET performance evaluation
-jupyter notebook ET_calibration_method.ipynb
+jupyter notebook eTCalibrationMethod.ipynb
 ```
 
 ##  Analysis Workflow
