@@ -438,19 +438,37 @@ LANDUSE_NAMES = {
 
 ## License
 
-[Add your license information here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Citation
 
-If you use this code in your research, please cite:
-
+If you use this code in your research, please cite: <br> <br>
+**bibtex:**
 ```bibtex
-[Add your citation information here]
+@software{zeleke_swat_drought_tool_2025,
+  author       = {Zeleke, E. B. and Chawanda, C. J. and Melesse, A.},
+  title        = {SWAT+ Drought Tool},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/ZENODO.16114248},
+  url          = {https://doi.org/10.5281/ZENODO.16114248}
+}
 ```
+
+**APA Style:**
+Zeleke, E. B., CHAWANDA, C. J., & Melesse, A. (2025). SWAT+ Drought Tool. Zenodo. https://doi.org/10.5281/ZENODO.16114248
 
 ## Contributing
 
-[Add contribution guidelines if applicable]
+We welcome contributions! Please:
+
+1. **Fork** the repository and create a new branch
+2. **Follow** PEP 8 style guidelines for Python code
+3. **Test** your changes with the provided example data
+4. **Update** documentation if adding new features
+5. **Submit** a pull request with a clear description
+
+Contributions can include bug reports, feature requests, code improvements, documentation updates, or example datasets from different watersheds.
 
 ## Contact
 
